@@ -209,6 +209,7 @@ header {
     color: var(--black);
     text-decoration: none;
     text-align: center;
+    display: block;
 }
 
 .btn--active {
@@ -216,8 +217,15 @@ header {
     border: var(--yellow) solid 2px;
 }
 
-.btn__link--no-active {
+.btn--no-active {
     color: #cac3b3;
+    display: inline-block;
+    border: #dfd9c7 solid 2px;
+    width: 45px;
+    text-align: center;
+    padding: 14px 0;
+    margin: 1px;
+    
 }
 
 .knop {
